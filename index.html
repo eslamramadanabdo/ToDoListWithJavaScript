@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Welcom To Our TODO List</h1>
+        <div class="card">
+            <div class="card-body">
+                <input id="taskInput" type="text" placeholder="Add Task"> <br>
+                <button id="taskButton" class="but">Add Task</button>
+            </div>
+        </div>
+
+
+        <h1>All Tasks</h1>
+        <div class="card">
+            <div class="card-body" id="all" >
+                <div id="noTasks" class="alert ">
+                    No Tasks Added Yet
+                </div>
+                <div id="allTasks"></div>
+                <button class="but" style="background-color: red;" id="deleteAll">Delete All</button>
+            </div>
+        
+        </div>
+    </div>
+
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
